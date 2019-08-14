@@ -35,26 +35,32 @@ const Elements = (props) => (
                                 <div className="mb-5">
                                     <textarea name="demo-message" id="demo-message" placeholder="First period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
                                 </div>
+                            </div>
                             <div className="col-12">
                                 <div className="mb-5">
                                     <textarea name="demo-message" id="demo-message" placeholder="Second period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
                                 </div>
+                            </div>
                             <div className="col-12">
                                 <div className="mb-5">
                                     <textarea name="demo-message" id="demo-message" placeholder="Third period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
                                 </div>
+                            </div>
                             <div className="col-12">
                                 <div className="mb-5">
                                     <textarea name="demo-message" id="demo-message" placeholder="Fourth period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
                                 </div>
+                            </div>
                             <div className="col-12">
                                 <div className="mb-5">
                                     <textarea name="demo-message" id="demo-message" placeholder="Fifth period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
                                 </div>
+                            </div>
                             <div className="col-12">
                                 <div className="mb-5">
                                     <textarea name="demo-message" id="demo-message" placeholder="Sixth period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
                                 </div>
+                            </div>
                             <div className="col-12">
                                 <div className="mb-5">
                                     <textarea name="demo-message" id="demo-message" placeholder="Seventh period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
