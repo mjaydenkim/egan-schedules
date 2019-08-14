@@ -312,7 +312,7 @@ const Elements = (props) => (
 
                                 <h3>Form</h3>
 
-                                <form method="post" action="#" netlify>
+                                <form method="post" action="#" data-netlify="true" action="/elements">
                                     <div className="grid-wrapper">
                                         <div className="col-6">
                                             <div className="mb-5"><input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" /></div>
