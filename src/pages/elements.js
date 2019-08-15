@@ -301,7 +301,8 @@ const elements = (props) => (
                     </div>
             </section>
         </div>
-
+        <a href="https://docs.google.com/spreadsheets/d/16PIoflseZKw09s38C9qc1Ip2GYKImePlktfjTSNZ96o/edit?usp=sharing"><p>View other people's schedules here!</p></a>
+        
     </Layout>
 )
 
