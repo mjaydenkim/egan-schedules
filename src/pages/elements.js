@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const elements = (props) => (
     <Layout>
         <Helmet>
-            <title>Dubmit Your Schedule</title>
+            <title>Submit Your Schedule</title>
             <meta name="description" content="elements Page" />
         </Helmet>
 
@@ -293,9 +293,6 @@ const elements = (props) => (
                           <option value="P7 Zacanti">Zacanti (Pe/Health/Leadership 7/8)</option>
                           <option value="P7 Zanette">Zanette (english 7)</option>
                         </select></label>
-                      </p>
-                      <p>
-                        <label>Any other notes?: <textarea name="message"></textarea></label>
                       </p>
                       <p>
                         <button type="submit">Send</button>
