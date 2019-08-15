@@ -263,6 +263,7 @@ const elements = (props) => (
                           <option value="P6 Wulfsohn">Wulfsohn (Spanish 7/8)</option>
                           <option value="P6 Zacanti">Zacanti (Pe/Health/Leadership 7/8)</option>
                           <option value="P6 Zanette">Zanette (english 7)</option>
+                        </select></label>
                       </p>
                       <p>
                         <label>Your Seventh Period Teacher: <select name="p7" multiple>
