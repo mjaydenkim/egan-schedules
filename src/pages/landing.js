@@ -16,7 +16,7 @@ const Landing = (props) => (
         </Helmet>
         <div id="main">
             <section id="one">
-                <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/6n3pFFPSlW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/6n3pFFPSlW4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
             </section>
         </div>
 
