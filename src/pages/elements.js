@@ -18,7 +18,7 @@ const elements = (props) => (
                         <h1>Submit your schedule here!</h1>
                         <a href="https://docs.google.com/spreadsheets/d/16PIoflseZKw09s38C9qc1Ip2GYKImePlktfjTSNZ96o/edit?usp=sharing"><h2>View other people's schedules by clicking this text!</h2></a>
                     </header>
-                    <form name="contact" method="POST" data-netlify="true" action="/elements">
+                    <form name="contact" method="POST" data-netlify="true" action="/generic">
                     <input type="hidden" name="form-name" value="contact" />
                       <p>
                         <label>Your Name (First and Last): <input type="text" name="name" /></label>   
