@@ -30,7 +30,7 @@ const elements = (props) => (
                       <p>
                         <label>Your Homeroom Teacher: <select name="hr" multiple>
                           <option value="Asuncion">Asuncion (Math 7/8)</option>
-                          <option value="Bruzelius">Bruzeliuselius (english 8)</option>
+                          <option value="Bruzelius">Bruzelius (english 8)</option>
                           <option value="Chiang">Chiang (Mandarin 7/8)</option>
                           <option value="Clavijo">Clavijo (French, Drama)</option>
                           <option value="Clawson">Clawson (Photography, Digital Broadcasting/Journalism)</option>
@@ -64,7 +64,7 @@ const elements = (props) => (
                       <p>
                         <label>Your First Period Teacher: <select name="p1" multiple>
                           <option value="P1 Asuncion">Asuncion (Math 7/8)</option>
-                          <option value="P1 Bruzelius">Bruzeliuselius (english 8)</option>
+                          <option value="P1 Bruzelius">Bruzelius (english 8)</option>
                           <option value="P1 Chiang">Chiang (Mandarin 7/8)</option>
                           <option value="P1 Clavijo">Clavijo (French, Drama)</option>
                           <option value="P1 Clawson">Clawson (Photography, Digital Broadcasting/Journalism)</option>
@@ -98,7 +98,7 @@ const elements = (props) => (
                       <p>
                         <label>Your Second Period Teacher: <select name="p2" multiple>
                           <option value="P2 Asuncion">Asuncion (Math 7/8)</option>
-                          <option value="P2 Bruzelius">Bruzeliuselius (english 8)</option>
+                          <option value="P2 Bruzelius">Bruzelius (english 8)</option>
                           <option value="P2 Chiang">Chiang (Mandarin 7/8)</option>
                           <option value="P2 Clavijo">Clavijo (French, Drama)</option>
                           <option value="P2 Clawson">Clawson (Photography, Digital Broadcasting/Journalism)</option>
@@ -132,7 +132,7 @@ const elements = (props) => (
                       <p>
                         <label>Your Third Period Teacher: <select name="p3" multiple>
                           <option value="P3 Asuncion">Asuncion (Math 7/8)</option>
-                          <option value="P3 Bruzelius">Bruzeliuselius (english 8)</option>
+                          <option value="P3 Bruzelius">Bruzelius (english 8)</option>
                           <option value="P3 Chiang">Chiang (Mandarin 7/8)</option>
                           <option value="P3 Clavijo">Clavijo (French, Drama)</option>
                           <option value="P3 Clawson">Clawson (Photography, Digital Broadcasting/Journalism)</option>
@@ -166,7 +166,7 @@ const elements = (props) => (
                       <p>
                         <label>Your Fourth Period Teacher: <select name="p4" multiple>
                           <option value="P4 Asuncion">Asuncion (Math 7/8)</option>
-                          <option value="P4 Bruzelius">Bruzeliuselius (english 8)</option>
+                          <option value="P4 Bruzelius">Bruzelius (english 8)</option>
                           <option value="P4 Chiang">Chiang (Mandarin 7/8)</option>
                           <option value="P4 Clavijo">Clavijo (French, Drama)</option>
                           <option value="P4 Clawson">Clawson (Photography, Digital Broadcasting/Journalism)</option>
@@ -200,7 +200,7 @@ const elements = (props) => (
                       <p>
                         <label>Your Fifth Period Teacher: <select name="p5" multiple>
                           <option value="P5 Asuncion">Asuncion (Math 7/8)</option>
-                          <option value="P5 Bruzelius">Bruzeliuselius (english 8)</option>
+                          <option value="P5 Bruzelius">Bruzelius (english 8)</option>
                           <option value="P5 Chiang">Chiang (Mandarin 7/8)</option>
                           <option value="P5 Clavijo">Clavijo (French, Drama)</option>
                           <option value="P5 Clawson">Clawson (Photography, Digital Broadcasting/Journalism)</option>
@@ -234,7 +234,7 @@ const elements = (props) => (
                       <p>
                         <label>Your Sixth Period Teacher: <select name="p6" multiple>
                           <option value="P6 Asuncion">Asuncion (Math 7/8)</option>
-                          <option value="P6 Bruzelius">Bruzeliuselius (english 8)</option>
+                          <option value="P6 Bruzelius">Bruzelius (english 8)</option>
                           <option value="P6 Chiang">Chiang (Mandarin 7/8)</option>
                           <option value="P6 Clavijo">Clavijo (French, Drama)</option>
                           <option value="P6 Clawson">Clawson (Photography, Digital Broadcasting/Journalism)</option>
@@ -268,7 +268,7 @@ const elements = (props) => (
                       <p>
                         <label>Your Seventh Period Teacher: <select name="p7" multiple>
                           <option value="P7 Asuncion">Asuncion (Math 7/8)</option>
-                          <option value="P7 Bruzelius">Bruzeliuselius (english 8)</option>
+                          <option value="P7 Bruzelius">Bruzelius (english 8)</option>
                           <option value="P7 Chiang">Chiang (Mandarin 7/8)</option>
                           <option value="P7 Clavijo">Clavijo (French, Drama)</option>
                           <option value="P7 Clawson">Clawson (Photography, Digital Broadcasting/Journalism)</option>
