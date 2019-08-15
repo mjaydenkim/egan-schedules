@@ -22,7 +22,7 @@ const Elements = (props) => (
                         <h1>How could you make Egan better?</h1>
                     </header>
                     <h3>Do you have any suggestions to improve our school? Please send it using the form below. I will read each message sent, and if I am elected, I will do my best to act on them! Thank you in advance for your suggestions.</h3>
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form name="contact" method="POST" data-netlify="true" action="/elements">
                       <p>
                         <label>Your Name (First and Last): <input type="text" name="name" /></label>   
                       </p>
