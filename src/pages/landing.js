@@ -11,12 +11,9 @@ import pic10 from '../assets/images/pic10.jpg'
 const Landing = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
+            <title>HA</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
-
-        <BannerLanding />
-
         <div id="main">
             <section id="one">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/6n3pFFPSlW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
