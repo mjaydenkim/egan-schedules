@@ -22,57 +22,25 @@ const Elements = (props) => (
                         <h1>How could you make Egan better?</h1>
                     </header>
                     <h3>Do you have any suggestions to improve our school? Please send it using the form below. I will read each message sent, and if I am elected, I will do my best to act on them! Thank you in advance for your suggestions.</h3>
-                    <form name="contact" method="POST" data-netlify="true" action="/elements">
-                        <input type="hidden" name="form-name" value="contact" /> 
-                        <div className="grid-wrapper">
-                            <div className="col-6">
-                                <div className="mb-5"><input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="First Name" /></div>
-                            </div>
-                            <div className="col-6">
-                                <div className="mb-5"><input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Last Name" /></div>
-                            </div>
-                            <div className="col-12">
-                                <div className="mb-5">
-                                    <textarea name="demo-message" id="demo-message" placeholder="First period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
-                                </div>
-                            </div>
-                            <div className="col-12">
-                                <div className="mb-5">
-                                    <textarea name="demo-message" id="demo-message" placeholder="Second period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
-                                </div>
-                            </div>
-                            <div className="col-12">
-                                <div className="mb-5">
-                                    <textarea name="demo-message" id="demo-message" placeholder="Third period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
-                                </div>
-                            </div>
-                            <div className="col-12">
-                                <div className="mb-5">
-                                    <textarea name="demo-message" id="demo-message" placeholder="Fourth period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
-                                </div>
-                            </div>
-                            <div className="col-12">
-                                <div className="mb-5">
-                                    <textarea name="demo-message" id="demo-message" placeholder="Fifth period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
-                                </div>
-                            </div>
-                            <div className="col-12">
-                                <div className="mb-5">
-                                    <textarea name="demo-message" id="demo-message" placeholder="Sixth period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
-                                </div>
-                            </div>
-                            <div className="col-12">
-                                <div className="mb-5">
-                                    <textarea name="demo-message" id="demo-message" placeholder="Seventh period? Structure like this: Math Massaro or English Musich" rows="1"></textarea>
-                                </div>
-                            </div>
-                            <div className="col-12">
-                                <ul className="actions">
-                                    <li><input type="submit" value="Send Message" className="special" /></li>
-                                    <li><input type="reset" value="Reset" /></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <form name="contact" method="POST" data-netlify="true">
+                      <p>
+                        <label>Your Name: <input type="text" name="name" /></label>   
+                      </p>
+                      <p>
+                        <label>Your Email: <input type="email" name="email" /></label>
+                      </p>
+                      <p>
+                        <label>Your Role: <select name="role[]" multiple>
+                          <option value="leader">Leader</option>
+                          <option value="follower">Follower</option>
+                        </select></label>
+                      </p>
+                      <p>
+                        <label>Message: <textarea name="message"></textarea></label>
+                      </p>
+                      <p>
+                        <button type="submit">Send</button>
+                      </p>
                     </form>
                     </div>
             </section>
