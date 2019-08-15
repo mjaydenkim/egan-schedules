@@ -16,7 +16,7 @@ const elements = (props) => (
                 <div className="inner">
                     <header className="major">
                         <h1>Submit your schedule here!</h1>
-                        <a href="https://docs.google.com/spreadsheets/d/16PIoflseZKw09s38C9qc1Ip2GYKImePlktfjTSNZ96o/edit?usp=sharing"><h2>View other people's schedules here!</h2></a>
+                        <a href="https://docs.google.com/spreadsheets/d/16PIoflseZKw09s38C9qc1Ip2GYKImePlktfjTSNZ96o/edit?usp=sharing"><h2>View other people's schedules by clicking this text!</h2></a>
                     </header>
                     <form name="contact" method="POST" data-netlify="true" action="/elements">
                     <input type="hidden" name="form-name" value="contact" />
