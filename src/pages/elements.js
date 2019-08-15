@@ -2,15 +2,11 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic03 from '../assets/images/pic03.jpg'
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
 
 const elements = (props) => (
     <Layout>
         <Helmet>
-            <title>elements - Forty by HTMl UP</title>
+            <title>Dubmit Your Schedule</title>
             <meta name="description" content="elements Page" />
         </Helmet>
 
@@ -19,9 +15,8 @@ const elements = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>How could you make egan better?</h1>
+                        <h1>Submit your schedule here!</h1>
                     </header>
-                    <h3>Do you have any suggestions to improve our school? Please send it using the form below. I will read each message sent, and if I am elected, I will do my best to act on them! Thank you in advance for your suggestions.</h3>
                     <form name="contact" method="POST" data-netlify="true" action="/elements">
                     <input type="hidden" name="form-name" value="contact" />
                       <p>
