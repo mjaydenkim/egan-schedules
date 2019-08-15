@@ -62,7 +62,7 @@ const Elements = (props) => (
                         </select></label>
                       </p>
                       <p>
-                        <label>Your First Period Teacher: <select name="role[]" multiple>
+                        <label>Your First Period Teacher: <select name="p1" multiple>
                           <option value="asun1">Asuncion (Math 7/8)</option>
                           <option value="bruz1">Bruzelius (English 8)</option>
                           <option value="chia1">Chiang (Mandarin 7/8)</option>
@@ -96,7 +96,7 @@ const Elements = (props) => (
                         </select></label>
                       </p>
                       <p>
-                        <label>Your Second Period Teacher: <select name="role[]" multiple>
+                        <label>Your Second Period Teacher: <select name="p2" multiple>
                           <option value="asun2">Asuncion (Math 7/8)</option>
                           <option value="bruz2">Bruzelius (English 8)</option>
                           <option value="chia2">Chiang (Mandarin 7/8)</option>
@@ -130,7 +130,7 @@ const Elements = (props) => (
                         </select></label>
                       </p>
                       <p>
-                        <label>Your Third Period Teacher: <select name="role[]" multiple>
+                        <label>Your Third Period Teacher: <select name="p3" multiple>
                           <option value="asun3">Asuncion (Math 7/8)</option>
                           <option value="bruz3">Bruzelius (English 8)</option>
                           <option value="chia3">Chiang (Mandarin 7/8)</option>
@@ -164,7 +164,7 @@ const Elements = (props) => (
                         </select></label>
                       </p>
                       <p>
-                        <label>Your Fourth Period Teacher: <select name="role[]" multiple>
+                        <label>Your Fourth Period Teacher: <select name="p4" multiple>
                           <option value="asun4">Asuncion (Math 7/8)</option>
                           <option value="bruz4">Bruzelius (English 8)</option>
                           <option value="chia4">Chiang (Mandarin 7/8)</option>
@@ -198,7 +198,7 @@ const Elements = (props) => (
                         </select></label>
                       </p>
                       <p>
-                        <label>Your Fifth Period Teacher: <select name="role[]" multiple>
+                        <label>Your Fifth Period Teacher: <select name="p5" multiple>
                           <option value="asun5">Asuncion (Math 7/8)</option>
                           <option value="bruz5">Bruzelius (English 8)</option>
                           <option value="chia5">Chiang (Mandarin 7/8)</option>
@@ -232,7 +232,7 @@ const Elements = (props) => (
                         </select></label>
                       </p>
                       <p>
-                        <label>Your Sixth Period Teacher: <select name="role[]" multiple>
+                        <label>Your Sixth Period Teacher: <select name="p6" multiple>
                           <option value="asun6">Asuncion (Math 7/8)</option>
                           <option value="bruz6">Bruzelius (English 8)</option>
                           <option value="chia6">Chiang (Mandarin 7/8)</option>
@@ -266,7 +266,7 @@ const Elements = (props) => (
                         </select></label>
                       </p>
                       <p>
-                        <label>Your Seventh Period Teacher: <select name="role[]" multiple>
+                        <label>Your Seventh Period Teacher: <select name="p7" multiple>
                           <option value="asun7">Asuncion (Math 7/8)</option>
                           <option value="bruz7">Bruzelius (English 8)</option>
                           <option value="chia7">Chiang (Mandarin 7/8)</option>
